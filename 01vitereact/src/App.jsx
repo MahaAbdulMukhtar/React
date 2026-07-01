@@ -1,7 +1,8 @@
 import Comp from './Comp';
 
 function App() {
-
+  const username = "maha";
+  
   return (
     <>
     <Comp />
