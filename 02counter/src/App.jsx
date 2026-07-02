@@ -8,13 +8,15 @@ function App() {
   // let counter = 15;
 
   const addValue = () => {
-
     //counter = counter + 1;
-    setCounter(counter + 1);
-
-    if (counter >= 20) {
-      setCounter(counter)
-    }
+    // setCounter(counter + 1);
+    // if (counter >= 20) {
+    //   setCounter(counter)
+    // }
+    setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1);
+    setCounter(prevCounter => prevCounter + 1);
     
   }
 
